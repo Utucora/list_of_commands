@@ -1,0 +1,11 @@
+//The rsync command is used in order to create backups
+
+//locally:
+rsync -zr directory1/ dyrectory2/
+//recursivelly compresses and copies the files from "directory1" directly to "directory2"
+rsync -zr directory1 directory2/
+//recursivelly compresses and copies the files from "directory1" to a directory named "directory1" inside of "directory2"
+
+//remotely(connection via ssh required):
+rsync -zr directory1/ 192.000.00.000:~/directory1/
+//recursivelly compresses and copies the files from "directory1" to a system with the ip adress of "192.000.00.000" to a directory named "directory1" inside of the "directory2" directory, stored inside "home"
