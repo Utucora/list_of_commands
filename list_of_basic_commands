@@ -1,0 +1,12 @@
+//This is a list of commands I find useful for the linux terminal
+"cd": is used to change directories
+"ls": is used to list contents of a directory. The "ls -l" also lists permissions, sizes and ownerships. The "ls -a" lists hidden files also
+"mv": is used to move files
+"mk dir": is used to create directories
+"rm": is used to remove files
+"pwd": is used to list the path of the directory currently accessed 
+"which": is used to listi the location of a source/binary file of a command
+"locate": is ued to find all instances of a particular sequence
+"echo": simple print fucntion
+"printf": more complex print function
+"chmod": is used to change file permissions
